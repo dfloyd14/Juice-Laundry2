@@ -1,0 +1,74 @@
+<style>
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #fdfaf7;
+    color: #333;
+}
+header {
+    background-color: #f7941e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+.container {
+    flex: 1;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.smoothie-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.smoothie-item img, .placeholder {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    background-color: #ddd;
+    color: #666;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.smoothie-text {
+    padding-left: 20px;
+}
+.smoothie-item h3 {
+    margin: 10px 0;
+    color: #f7941e;
+}
+footer {
+    background-color: #ececec;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+@media (max-width: 600px) {
+    .smoothie-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .smoothie-text {
+        padding-left: 0;
+        padding-top: 10px;
+    }
+}
+</style>
